@@ -168,6 +168,31 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
+<!--
+  ETHERPAD
+
+  At `_misc/etherpad.txt` you will find a template for the etherpad.
+
+  Display the Etherpad for the workshop.  You can set this up in
+  advance or on the first day; either way, make sure you push changes
+  to GitHub after you have its URL.  To create an Etherpad, go to
+
+      http://pad.software-carpentry.org/YYYY-MM-DD-site
+
+  where 'YYYY-MM-DD-site' is the identifier for your workshop,
+  e.g., '2015-06-10-esu'.
+-->
+{% if page.etherpad %}
+<hr/>
+
+<p id="etherpad">
+  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
+  <br/>
+  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+
+</hr>
+
 <h2 id="preparation" name="preparation">Preparation</h2>
 
 <p>
@@ -254,29 +279,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 -->
 
-<!--
-  ETHERPAD
-
-  At `_misc/etherpad.txt` you will find a template for the etherpad.
-
-  Display the Etherpad for the workshop.  You can set this up in
-  advance or on the first day; either way, make sure you push changes
-  to GitHub after you have its URL.  To create an Etherpad, go to
-
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
-
-  where 'YYYY-MM-DD-site' is the identifier for your workshop,
-  e.g., '2015-06-10-esu'.
--->
-{% if page.etherpad %}
-<hr/>
-
-<p id="etherpad">
-  <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
-  <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-
+<h2 id="survey"> Survey </h2>
 <p>
   After the workshop, please fill out <a href="https://www.surveymonkey.com/r/post-instructor-training?workshop_id=[workshop_id_value]">our post-training survey</a>.
 </p>
