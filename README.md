@@ -3,7 +3,7 @@
 This website is based off [Software Carpentry][swc-site] and [Data Carpentry][dc-site]'s
 [template](https://github.com/carpentries/training-template) for creating websites for instructor training workshops.
 
-The website is accessible at https://anenadic.github.io/2018-10-09….
+The website is accessible at https://anenadic.github.io/2018-10-09-ttt-online.
 
 Carpentries are committed to offering a pleasant setup experience for their learners and organizers.
 If you find bugs in instructions, or would like to suggest improvements, please [file an issue][issues]
