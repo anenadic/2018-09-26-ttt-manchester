@@ -1,6 +1,6 @@
-# Online Carpentry Instructor Training organised by the Software Sustainability Institute, 09-10 October 20182
+# Online Carpentry Instructor Training organised by the Software Sustainability Institute, 09-10 October 2018
 
-Website accessible at https://anenadic.github.io/2018-10-09-ttt-online
+Website accessible at https://anenadic.github.io/2018-10-09-ttt-online.
 
 # Getting and Giving Help
 
